@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
 {
-    int a,nt,t1=0,t2=1,i;
+    int a,i,nt,t1=0,t2=1;
     printf("enter the value");
     scanf("%d",&a);
-    for(i=1;i<=a;i++)
+    for(i=0;i<=a;i++)
     {
     printf("%d",t1);
     nt=t1+t2;
