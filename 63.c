@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
 	int i,c=0;
 	char a[50]="laptop is good";
