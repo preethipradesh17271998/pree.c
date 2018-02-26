@@ -6,7 +6,17 @@ int main()
 	scanf("%d",&a);
 	printf("enter the number\n");
 	scanf("%d",&b);
-	c=a-b;
+	if(a>b)
+    {
+    	c=a-b;
+    	printf("the number is %d",c);
+    }
+    else
+    {
+    	c=b-a;
+    	printf("the number is %d",c);
+    }
+	
 	if(c%2==0)
 	{
 		printf("even");
